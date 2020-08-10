@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        .fixed .desktop_nav-links li a,
+        .fixed .dropdown .first_a {
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header style="background-image: url(img/Group\ 18.png);">
+        <nav>
+            <div class="page_container">
+                <div class="desktop_nav">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/azpolrebgli.png" alt="Logo Image">
+                        </a>
+                    </div>
+                    <ul class="desktop_nav-links">
+                        <li><a href="index.html">Ana səhifə</a></li>
+                        <li><a href="about.html">Haqqımızda</a></li>
+                        <li>
+                            <div class="dropdown d-flex">
+                                <!--Trigger-->
+                                <a class="first_a btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Məhsullar</a>
+                                <!--Menu-->
+                                <ul class="dropdown-menu dropdown-primary">
+                                    <li><a class="hypertext" href="product.html">Antikorroziv astarlar və boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">İstiliyə davamlı boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Yanğın gecikdirici boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Dəniz boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Yol cizgi boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Epoksid və poliüretan zəmin örtükləri</a></li>
+                                    <li><a class="hypertext" href="product.html">Tinerlər</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="news.html">Xəbərlər</a></li>
+                        <li><a href="contact.html">Əlaqə</a></li>
+                    </ul>
+
+                    <div class="lang">
+                        <!--Dropdown primary-->
+                        <div class="dropdown">
+                            <!--Trigger-->
+                            <a style="float: right;font-weight:bold" class="first_a btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AZ</a>
+                            <!--Menu-->
+                            <div class="dropdown-menu dropdown-primary">
+                                <a class="dropdown-item" href="#">RUS</a>
+                                <a class="dropdown-item" href="#">ENG</a>
+                            </div>
+                        </div>
+                        <!--/Dropdown primary-->
+                    </div>
+                </div>
+                <div class="mobile_nav_wrapper">
+                    <div class="mobile_nav">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/azpolrebgli.png" alt="Logo Image"></a>
+                        </div>
+
+                        <input type="checkbox" class="menu-btn" id="menu-btn">
+                        <label for="menu-btn" class="menu-icon">
+                            <span class="menu-icon__line"></span>
+                        </label>
+
+                        <ul class="nav-links">
+                            <li class="nav-link">
+                                <a href="index.html">Ana səhifə</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="about.html">Haqqımızda</a>
+                            </li>
+                            <li class="nav-link dropdown">
+                                <label for="dd2" class="hypertext">
+                                    Məhsullar &#9660
+                                </label>
+                                <input type="checkbox" hidden id="dd2" />
+                                <ul class="dd">
+                                    <li><a class="hypertext" href="product.html">Antikorroziv astarlar və boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">İstiliyə davamlı boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Yanğın gecikdirici boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Dəniz boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Yol cizgi boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Epoksid və poliüretan zəmin örtükləri</a></li>
+                                    <li><a class="hypertext" href="product.html">Tinerlər</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link">
+                                <a href="news.html">Xəbərlər</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="contact.html">Əlaqə</a>
+                            </li>
+                            <li class="nav-link dropdown">
+                                <label for="dd1" class="hypertext">
+                                    Az &#9660
+                                </label>
+                                <input type="checkbox" hidden id="dd1" />
+                                <ul class="dd">
+                                    <li><a class="hypertext" href="#">Rus</a></li>
+                                    <li><a class="hypertext" href="#">Eng</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="news-section">
+        <div class="container">
+            <div class="text-headline" style="margin-bottom: 0rem;">
+                <h2>Xəbərlər</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="news_box">
+                        <div class="news">
+                            <p>Stiren-akrilik emulsiya əsaslı xarici məkanlarda istifadə edilən dekorativ mat görünüşlü son qat boyadır.Tədbiq edildiyi səthlərə yüksək yapışma, örtmə və nəfəs alma xüsusiyyəti ilə fərqlənir. Divarın içindəki rütubətin səthin
+                                üzərinə çıxmasını saxlayar, bu səbəbdən səthdə ləkə verməz. Sürtünməyə, zərbəyə, atmosfer təsirlərə və UB şualara dayanıqlıdır,.....</p>
+                            <a href="news_details.html">Ətraflı Oxu</a>
+                        </div>
+                        <div class="news_name">
+                            <div>
+                                <img src="img/painter2.png">
+                            </div>
+                            <div>
+                                <h5>Rənglərin möcüzəsi</h5>
+                                <p>Rənglərin möcüzəsi - həyatımızda rənglərin yeri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="news_box">
+                        <div class="news">
+                            <p>Stiren-akrilik emulsiya əsaslı xarici məkanlarda istifadə edilən dekorativ mat görünüşlü son qat boyadır.Tədbiq edildiyi səthlərə yüksək yapışma, örtmə və nəfəs alma xüsusiyyəti ilə fərqlənir. Divarın içindəki rütubətin səthin
+                                üzərinə çıxmasını saxlayar, bu səbəbdən səthdə ləkə verməz. Sürtünməyə, zərbəyə, atmosfer təsirlərə və UB şualara dayanıqlıdır,.....</p>
+                            <a href="news_details.html">Ətraflı Oxu</a>
+                        </div>
+                        <div class="news_name">
+                            <div>
+                                <img src="img/painter2.png">
+                            </div>
+                            <div>
+                                <h5>Rənglərin möcüzəsi</h5>
+                                <p>Rənglərin möcüzəsi - həyatımızda rənglərin yeri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="news_box">
+                        <div class="news">
+                            <p>Stiren-akrilik emulsiya əsaslı xarici məkanlarda istifadə edilən dekorativ mat görünüşlü son qat boyadır.Tədbiq edildiyi səthlərə yüksək yapışma, örtmə və nəfəs alma xüsusiyyəti ilə fərqlənir. Divarın içindəki rütubətin səthin
+                                üzərinə çıxmasını saxlayar, bu səbəbdən səthdə ləkə verməz. Sürtünməyə, zərbəyə, atmosfer təsirlərə və UB şualara dayanıqlıdır,.....</p>
+                            <a href="news_details.html">Ətraflı Oxu</a>
+                        </div>
+                        <div class="news_name">
+                            <div>
+                                <img src="img/painter2.png">
+                            </div>
+                            <div>
+                                <h5>Rənglərin möcüzəsi</h5>
+                                <p>Rənglərin möcüzəsi - həyatımızda rənglərin yeri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="news_box">
+                        <div class="news">
+                            <p>Stiren-akrilik emulsiya əsaslı xarici məkanlarda istifadə edilən dekorativ mat görünüşlü son qat boyadır.Tədbiq edildiyi səthlərə yüksək yapışma, örtmə və nəfəs alma xüsusiyyəti ilə fərqlənir. Divarın içindəki rütubətin səthin
+                                üzərinə çıxmasını saxlayar, bu səbəbdən səthdə ləkə verməz. Sürtünməyə, zərbəyə, atmosfer təsirlərə və UB şualara dayanıqlıdır,.....</p>
+                            <a href="news_details.html">Ətraflı Oxu</a>
+                        </div>
+                        <div class="news_name">
+                            <div>
+                                <img src="img/painter2.png">
+                            </div>
+                            <div>
+                                <h5>Rənglərin möcüzəsi</h5>
+                                <p>Rənglərin möcüzəsi - həyatımızda rənglərin yeri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="news_box">
+                        <div class="news">
+                            <p>Stiren-akrilik emulsiya əsaslı xarici məkanlarda istifadə edilən dekorativ mat görünüşlü son qat boyadır.Tədbiq edildiyi səthlərə yüksək yapışma, örtmə və nəfəs alma xüsusiyyəti ilə fərqlənir. Divarın içindəki rütubətin səthin
+                                üzərinə çıxmasını saxlayar, bu səbəbdən səthdə ləkə verməz. Sürtünməyə, zərbəyə, atmosfer təsirlərə və UB şualara dayanıqlıdır,.....</p>
+                            <a href="news_details.html">Ətraflı Oxu</a>
+                        </div>
+                        <div class="news_name">
+                            <div>
+                                <img src="img/painter2.png">
+                            </div>
+                            <div>
+                                <h5>Rənglərin möcüzəsi</h5>
+                                <p>Rənglərin möcüzəsi - həyatımızda rənglərin yeri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="news_box">
+                        <div class="news">
+                            <p>Stiren-akrilik emulsiya əsaslı xarici məkanlarda istifadə edilən dekorativ mat görünüşlü son qat boyadır.Tədbiq edildiyi səthlərə yüksək yapışma, örtmə və nəfəs alma xüsusiyyəti ilə fərqlənir. Divarın içindəki rütubətin səthin
+                                üzərinə çıxmasını saxlayar, bu səbəbdən səthdə ləkə verməz. Sürtünməyə, zərbəyə, atmosfer təsirlərə və UB şualara dayanıqlıdır,.....</p>
+                            <a href="news_details.html">Ətraflı Oxu</a>
+                        </div>
+                        <div class="news_name">
+                            <div>
+                                <img src="img/painter2.png">
+                            </div>
+                            <div>
+                                <h5>Rənglərin möcüzəsi</h5>
+                                <p>Rənglərin möcüzəsi - həyatımızda rənglərin yeri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="page_container">
+            <div class="row">
+                <div class="col-lg-4 col-12 footer_warpper">
+                    <div class="about">
+                        <h4>Şirkət Haqqında</h4>
+                        <p>
+                            Su əsaslı boyalar- orta qatılığa (viskozitəyə) malik olan emulsiyadır, su ilə durulaşdırılır. Bu boyaların üstünlükləri tərkibində üzvi həlledicilərin olmamağıdır, ekoloji təmizdir, insan orqanizminə və ətraf mühitə zərərli təsiri olmur...
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer_warpper">
+                    <div class="contact">
+                        <h4>Əlaqə məlumatları</h4>
+                        <div>
+                            <p>
+                                <span><i class="fas fa-phone-alt"></i></span>
+                                <a href="+994 50 201-99-22">+994 50 201-99-22</a>
+                            </p>
+                            <p>
+                                <span><i class="fas fa-phone-alt"></i></span>
+                                <a href="+994 50 201-99-22">+994 50 201-99-22</a>
+                            </p>
+                        </div>
+                        <p>
+                            <span><i class="far fa-envelope-open"></i></span>
+                            <span>marketing@nbgroup.az</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer_warpper">
+                    <div class="send_message">
+                        <h4>Bizə əlavə və təkliflərinizi bildirin</h4>
+                        <div>
+                            <form action="">
+                                <input type="text" placeholder="Mesajınızı daxil edin" class="pt-2 pb-2 pl-2 pr-5" id="message_box" style="border-radius: 2px;" />
+                                <span>İrəli</span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2016 NB Group. Bütün hüquqlar qorunur. &nbsp; | &nbsp; Sitemap</p>
+        </div>
+    </footer>
+
+    <script src="js/mdb.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+        $('.carousel-area .owl-carousel').owlCarousel({
+            loop: true,
+            dots: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                },
+                1200: {
+                    items: 4
+                }
+            }
+        });
+
+        $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function() {
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < 4; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+    </script>
+</body>
+
+</html>

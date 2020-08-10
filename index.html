@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        .fixed .desktop_nav-links li a,
+        .fixed .dropdown .first_a {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header style="background-image: url(img/Group\ 18.png);">
+        <nav>
+            <div class="page_container">
+                <div class="desktop_nav">
+                    <div class="logo">
+                        <a href="index.html"> <img src="img/azpolrebgli.png" alt="Logo Image"></a>
+                    </div>
+                    <ul class="desktop_nav-links">
+                        <li><a href="index.html">Ana səhifə</a></li>
+                        <li><a href="about.html">Haqqımızda</a></li>
+                        <li>
+                            <div class="dropdown d-flex">
+                                <!--Trigger-->
+                                <a href="product.html" class="first_a btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Məhsullar</a>
+                                <!--Menu-->
+                                <ul class="dropdown-menu dropdown-primary">
+                                    <li><a class="hypertext" href="product.html">Antikorroziv astarlar və boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">İstiliyə davamlı boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Yanğın gecikdirici boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Dəniz boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Yol cizgi boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Epoksid və poliüretan zəmin örtükləri</a></li>
+                                    <li><a class="hypertext" href="product.html">Tinerlər</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="news.html">Xəbərlər</a></li>
+                        <li><a href="contact.html">Əlaqə</a></li>
+                    </ul>
+
+                    <div class="lang">
+                        <!--Dropdown primary-->
+                        <div class="dropdown">
+                            <!--Trigger-->
+                            <a style="float: right;font-weight:bold;font-size: 14px;" class="first_a btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AZ</a>
+                            <!--Menu-->
+                            <div class="dropdown-menu dropdown-primary">
+                                <a class="dropdown-item" href="#">RUS</a>
+                                <a class="dropdown-item" href="#">ENG</a>
+                            </div>
+                        </div>
+                        <!--/Dropdown primary-->
+                    </div>
+                </div>
+                <div class="mobile_nav_wrapper">
+                    <div class="mobile_nav">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/azpolrebgli.png" alt="Logo Image">
+                            </a>
+                        </div>
+
+                        <input type="checkbox" class="menu-btn" id="menu-btn">
+                        <label for="menu-btn" class="menu-icon">
+                            <span class="menu-icon__line"></span>
+                        </label>
+
+                        <ul class="nav-links">
+                            <li class="nav-link">
+                                <a href="index.html">Ana səhifə</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="about.html">Haqqımızda</a>
+                            </li>
+                            <li class="nav-link dropdown">
+                                <label for="dd2" class="hypertext">
+                                    Məhsullar &#9660
+                                </label>
+                                <input type="checkbox" hidden id="dd2" />
+                                <ul class="dd">
+                                    <li><a class="hypertext" href="product.html">Antikorroziv astarlar və boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">İstiliyə davamlı boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Yanğın gecikdirici boyalar</a></li>
+                                    <li><a class="hypertext" href="product.html">Dəniz boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Yol cizgi boyaları</a></li>
+                                    <li><a class="hypertext" href="product.html">Epoksid və poliüretan zəmin örtükləri</a></li>
+                                    <li><a class="hypertext" href="product.html">Tinerlər</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link">
+                                <a href="news.html">Xəbərlər</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="contact.html">Əlaqə</a>
+                            </li>
+                            <li class="nav-link dropdown">
+                                <label for="dd1" class="hypertext">
+                                    Az &#9660
+                                </label>
+                                <input type="checkbox" hidden id="dd1" />
+                                <ul class="dd">
+                                    <li><a class="hypertext" href="#">Rus</a></li>
+                                    <li><a class="hypertext" href="#">Eng</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="page_container">
+            <main>
+                <div class="main_img_wrapper">
+                    <div class="text_wrapper_1">
+                        <div class="number">01</div>
+                        <div>
+                            <span class="text_wrapper_head">Boyanın keyfiyyətli olub <br> olmamasını necə bilək?
+                            </span>
+                            <p class="text_wrapper_body">
+                                İstifadə etdiyimiz hər bir məhsulda axtardığımız özəlliklər vardır. Həmin özəlliklər məhsulları bizim üçün qəbul olunan edir.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slogan">
+                        <h2>EVİNİZ BİZƏ</h2>
+                        <h1>ƏMANƏTDİR ...</h1>
+                    </div>
+                    <div class="text_wrapper_2">
+                        <div class="number">02</div>
+                        <div>
+                            <span class="text_wrapper_head">Boyama prosesi necə <br> olmalıdır?</span>
+                            <p class="text_wrapper_body">
+                                Çoxları düşünür ki, boyama, sadəcə boyanı alıb səthə bir qat çəkməkdən ibarətdir.Əslində isə belə etmək olar, amma bu uzunmüddətli omayacaq. Ona görə biz 3 mərhələli boyama prosesini məsləhət görürük.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text_wrapper_3">
+                        <div class="number">03</div>
+                        <div>
+                            <span class="text_wrapper_head">Boyanın minimum istismar <br> ömrü nə qədər olmalıdır?
+                            </span>
+                            <p class="text_wrapper_body">
+                                Səthin hazırlanması, onun vəziyyətindən asılıdır.Əgər boyanacaq səth yaxşı vəziyyətdədirsə, hazırlıq çətin olmayacaq.Amma əgər səthin vəziyyəti ürəkaçan deyilsə, onda boyamadan öncə işləmək lazım gələcək. Astardan istifadə həmişə vacib deyil.Bu da səthin
+                                keyfiyyətindən asılıdır.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_img_carousel">
+                    <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+
+                        <!--Controls-->
+                        <div class="controls-top">
+                            <a class="btn-floating" href="#carousel-example-multi" data-slide="prev">
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a class="btn-floating" href="#carousel-example-multi" data-slide="next">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!--/.Controls-->
+                        <div class="carousel-inner v-2" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-12 col-lg-4 col-md-6 col-sm-12 pl-2 pr-2">
+                                    <div class="card mb-2">
+                                        <div class="card_img">
+                                            <img src="img/purple.png" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                            <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                            <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş,
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-lg-4 col-md-6 col-sm-12 pl-2 pr-2">
+                                    <div class="card mb-2">
+                                        <div class="card_img">
+                                            <img src="img/purple.png" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                            <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                            <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş,
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-lg-4 col-md-6 col-sm-12 pl-2 pr-2">
+                                    <div class="card mb-2">
+                                        <div class="card_img">
+                                            <img src="img/purple.png" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                            <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                            <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş,
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-lg-4 col-md-6 col-sm-6 pl-2 pr-2">
+                                    <div class="card mb-2">
+                                        <div class="card_img">
+                                            <img src="img/purple.png" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                            <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                            <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş,
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-lg-4 col-md-6 col-sm-6 pl-2 pr-2">
+                                    <div class="card mb-2">
+                                        <div class="card_img">
+                                            <img src="img/purple.png" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                            <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                            <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş,
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12 col-lg-4 col-md-6 col-sm-6 pl-2 pr-2">
+                                    <div class="card mb-2">
+                                        <div class="card_img">
+                                            <img src="img/purple.png" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                            <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                            <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </header>
+
+    <section class="useful_info">
+        <div class="page_container">
+            <h3>Faydalı məlumatlar</h3>
+            <div>
+                <div class="carousel-area">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <img class="card-img-top" src="img/Mask Group 4@2x.png" alt="Card image cap">
+                                    <div class="number">01</div>
+                                </div>
+
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın keyfiyyətli olub-olmamasını necə bilək?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">02</div>
+                                    <img class="card-img-top" src="img/Mask Group 5@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyama prosesi necə olmalıdır ?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">03</div>
+                                    <img class="card-img-top" src="img/Mask Group 7@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın minimum istismar ömrü nə qədər olmalıdır ?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">01</div>
+                                    <img class="card-img-top" src="img/Mask Group 4@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın keyfiyyətli olub-olmamasını necə bilək?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">03</div>
+                                    <img class="card-img-top" src="img/Mask Group 7@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın minimum istismar ömrü nə qədər olmalıdır ?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">01</div>
+                                    <img class="card-img-top" src="img/Mask Group 4@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın keyfiyyətli olub-olmamasını necə bilək?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">03</div>
+                                    <img class="card-img-top" src="img/Mask Group 7@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın minimum istismar ömrü nə qədər olmalıdır ?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card mb-2">
+                                <div class="card_img">
+                                    <div class="number">01</div>
+                                    <img class="card-img-top" src="img/Mask Group 4@2x.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Boyanın keyfiyyətli olub-olmamasını necə bilək?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more_read">
+                <div>
+                    <span>Daha çox xəbər oxumaq üçün</span>
+                    <a href="#"><span>İrəli</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="company_about">
+        <div class="page_container">
+            <div class="company_about_text">
+                <h3 class="text_header">Şirkət Haqqında</h3>
+                <p>
+                    “NB Qrup” ASC Azərbaycan Kimya Sənayesi sahəsində uğurla fəaliyyət göstərən və dinamik surətdə inkişaf edən şirkətdir. Kimya Sənayesi sahəsində fəaliyyət göstərən şirkət olaraq, inşaat malları kateqoriyasından boya məhsulları, sement və gips əsaslı inşaat
+                    qarışıqlarının, alkid, polimer kimi sənaye əhəmiyyətli yarım məhsulların, kimyəvi məişət məhsulları....
+                </p>
+                <div class="more_read">
+                    <div>
+                        <span>Ətarflı oxumaq üçün</span>
+                        <a href="#"><span>İrəli</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products_section">
+        <div class="page_container">
+            <h3>Məhsullarımız</h3>
+
+            <div class="carousel-area">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more_read">
+                <div>
+                    <span>Ətarflı oxumaq üçün</span>
+                    <a href="#"><span>İrəli</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="color_section">
+        <div class="page_container">
+            <h3>Rəng Paletləri</h3>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="color_container_1">
+
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(77,119,154);"></span>
+                            <span>İT 169.5</span>
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(180,165,42);"></span>
+                            <span>İT 155.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(120,135,54);"></span>
+                            <span>İT 155.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(105,132,66);"></span>
+                            <span>İT 155.7</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(71,110,69)"></span>
+                            <span>İT 156.5</span>
+                        </button>
+                    </div>
+                    <div class="color_container_1">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(62,107,108);"></span>
+                            <span>İT 158.5</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(23,102,137);"></span>
+                            <span>İT 159.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(30,92,142);"></span>
+                            <span>İT 159.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(9,94,129);"></span>
+                            <span>İT 159.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(69,109,165);"></span>
+                            <span>İT 160.1</span>
+                        </button>
+                    </div>
+                    <div class="color_container_1">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(163,88,74);"></span>
+                            <span>İT 161.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(141,84,73);"></span>
+                            <span>İT 161.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(161,102,93);"></span>
+                            <span>İT 161.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(116,85,78);"></span>
+                            <span>İT 161.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(100,77,69);"></span>
+                            <span>İT 161.5</span>
+                        </button>
+                    </div>
+                    <div class="color_container_1">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(134,89,65);"></span>
+                            <span>İT 162.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(121,87,68);"></span>
+                            <span>İT 162.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(97,72,64);"></span>
+                            <span>İT 162.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(100,80,69);"></span>
+                            <span>İT 162.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(93,80,72);"></span>
+                            <span>İT 162.5</span>
+                        </button>
+                    </div>
+                    <div class="color_container_1">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(85,71,66)"></span>
+                            <span>İT 162.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(218,141,97);"></span>
+                            <span>İT 163.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(216,132,92);"></span>
+                            <span>İT 163.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(176,109,79);"></span>
+                            <span>İT 163.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(190,112,66);"></span>
+                            <span>İT 163.4</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="color_container_2">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(166,73,92)"></span>
+                            <span>İT 151.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(137,75,119);"></span>
+                            <span>İT 151.7</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(188,77,63);"></span>
+                            <span>İT 152.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(189,70,74);"></span>
+                            <span>İT 152.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(200,76,82);"></span>
+                            <span>İT 152.7</span>
+                        </button>
+                    </div>
+                    <div class="color_container_2">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(234,156,21);"></span>
+                            <span>İT 153.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(239,147,32);"></span>
+                            <span>İT 153.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(240,176,43);"></span>
+                            <span>İT 154.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(238,165,36);"></span>
+                            <span>İT 154.5</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(184,180,64);"></span>
+                            <span>İT 155.1</span>
+                        </button>
+                    </div>
+                    <div class="color_container_2">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(166,96,65);"></span>
+                            <span>İT 163.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(168,94,63);"></span>
+                            <span>İT 163.7</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(157,123,96);"></span>
+                            <span>İT 164.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(131,94,64);"></span>
+                            <span>İT 164.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(146,105,76);"></span>
+                            <span>İT 164.3</span>
+                        </button>
+                    </div>
+                    <div class="color_container_2">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(143,105,69);"></span>
+                            <span>İT 164.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(135,103,66);"></span>
+                            <span>İT 164.5</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(126,92,67);"></span>
+                            <span>İT 164.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(182,140,80);"></span>
+                            <span>İT 165.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(154,111,63);"></span>
+                            <span>İT 165.2</span>
+                        </button>
+                    </div>
+                    <div class="color_container_2">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(145,104,61);"></span>
+                            <span>İT 165.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(120,90,61)"></span>
+                            <span>İT 165.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(116,94,69);"></span>
+                            <span>İT 165.5</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(116,92,63);"></span>
+                            <span>İT 165.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(132,95,63);"></span>
+                            <span>İT 165.7</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="color_container_3">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(219,139,45);"></span>
+                            <span>İT 166.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(197,134,53);"></span>
+                            <span>İT 166.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(189,133,61);"></span>
+                            <span>İT 166.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(190,124,63);"></span>
+                            <span>İT 166.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(181,115,52);"></span>
+                            <span>İT 166.5</span>
+                        </button>
+                    </div>
+                    <div class="color_container_3">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(157,113,59);"></span>
+                            <span>İT 166.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(171,128,54);"></span>
+                            <span>İT 166.7</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(159,134,63)"></span>
+                            <span>İT 167.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(153,118,55);"></span>
+                            <span>İT 167.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(132,108,58);"></span>
+                            <span>İT 167.3</span>
+                        </button>
+                    </div>
+                    <div class="color_container_3">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(123,106,59);"></span>
+                            <span>İT 167.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(110,97,64);"></span>
+                            <span>İT 167.5</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(92,92,64);"></span>
+                            <span>İT 167.6</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(93,86,67);"></span>
+                            <span>İT 167.7</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(99,113,75);"></span>
+                            <span>İT 168.1</span>
+                        </button>
+                    </div>
+                    <div class="color_container_3">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(78,85,68);"></span>
+                            <span>İT 168.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(102,97,65);"></span>
+                            <span>İT 168.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(101,101,65);"></span>
+                            <span>İT 168.4</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(110,102,62);"></span>
+                            <span>İT 168.5</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(124,119,68);"></span>
+                            <span>İT 168.6</span>
+                        </button>
+                    </div>
+                    <div class="color_container_3">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(159,146,88);"></span>
+                            <span>İT 168.7</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(77,112,142)"></span>
+                            <span>İT 169.1</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="background: RGB(85,124,134);"></span>
+                            <span>İT 169.2</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(82,104,116);"></span>
+                            <span>İT 169.3</span>
+                        </button>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal">
+                            <span style="    background: RGB(62,116,144);"></span>
+                            <span>İT 169.4</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="more_read">
+                <div>
+                    <span>Daha çox xəbər oxumaq üçün</span>
+                    <a href="#"><span>İrəli</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="company_more_info">
+        <div class="page_container">
+            <div class="text">
+                <h4>BIZ HƏR YERDƏ VARIQ</h4>
+                <p>“NB Qrup” ASC Azərbaycan Kimya Sənayesi sahəsində uğurla fəaliyyət göstərən və dinamik surətdə inkişaf edən şirkətdir. Kimya Sənayesi sahəsində fəaliyyət göstərən şirkət olaraq, inşaat malları kateqoriyasından boya məhsulları, sement və
+                    gips əsaslı inşaat qarışıqlarının, alkid, polimer kimi sənaye əhəmiyyətli yarım məhsulların, kimyəvi məişət məhsulları seriyasından isə qatı və maye sabun, təmizləyici vasitər, plastik və metal qabların istehsalını həyata keçirir.
+                    «NB Qrup» un strategiyası yüksək səviyyəli və yüksək keyfiyyətli yerli istehsal brendləri formalaşdıraraq, müştərilərinin tələblərinə cavab vermək, bu istiqamətdə ölkə iqtisadiyyatının aparıcı qüvvələrindən biri olmaqdır. Şirkət bütün
+                    fəaliyyətini beynəlxalq standartlar,
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products_section">
+        <div class="page_container">
+            <h3>Məhsullarımız</h3>
+
+            <div class="carousel-area">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <div class="clearfix"></div>
+                                <h4 class="card-title">Antikorroziv astarlar və boyalar</h4>
+                                <p class="card-text">Epoksi astar Azepox 1410/SX-B</p>
+                                <p class="card-text">İki komponentli epoksi qətran əsaslı, sinkxromatla zənginləşdirilmiş, antikorroziv, səthə mükəmməl yapışan və tez quruyan astar qat boyadır....
+                                </p>
+                            </div>
+                            <div class="card_img">
+                                <img src="img/red.png" alt="Card image cap">
+                                <div><button class="btn">Ətraflı</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Controls-->
+            </div>
+            <div class="more_read">
+                <div>
+                    <span>Ətarflı oxumaq üçün</span>
+                    <a href="#"><span>İrəli</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="page_container">
+            <div class="row">
+                <div class="col-lg-4 col-12 footer_warpper">
+                    <div class="about">
+                        <h4>Şirkət Haqqında</h4>
+                        <p>
+                            Su əsaslı boyalar- orta qatılığa (viskozitəyə) malik olan emulsiyadır, su ilə durulaşdırılır. Bu boyaların üstünlükləri tərkibində üzvi həlledicilərin olmamağıdır, ekoloji təmizdir, insan orqanizminə və ətraf mühitə zərərli təsiri olmur...
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer_warpper">
+                    <div class="contact">
+                        <h4>Əlaqə məlumatları</h4>
+                        <div>
+                            <p>
+                                <span><i class="fas fa-phone-alt"></i></span>
+                                <a href="+994 50 201-99-22">+994 50 201-99-22</a>
+                            </p>
+                            <p>
+                                <span><i class="fas fa-phone-alt"></i></span>
+                                <a href="+994 50 201-99-22">+994 50 201-99-22</a>
+                            </p>
+                        </div>
+                        <p>
+                            <span><i class="far fa-envelope-open"></i></span>
+                            <span>marketing@nbgroup.az</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 footer_warpper">
+                    <div class="send_message">
+                        <h4>Bizə əlavə və təkliflərinizi bildirin</h4>
+                        <div>
+                            <form action="">
+                                <input type="text" placeholder="Mesajınızı daxil edin" class="pt-2 pb-2 pl-2 pr-5" id="message_box" style="border-radius: 2px;" />
+                                <input type="submit" value="İrəli">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2016 NB Group. Bütün hüquqlar qorunur. &nbsp; | &nbsp; Sitemap</p>
+        </div>
+    </footer>
+
+
+    <script src="js/mdb.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+        $('.carousel-area .owl-carousel').owlCarousel({
+            loop: true,
+            dots: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                500: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                },
+                1200: {
+                    items: 4
+                }
+            }
+        });
+
+        $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function() {
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < 4; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+    </script>
+
+</body>
+
+</html>
